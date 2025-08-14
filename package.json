@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "AI Image Detection Pro",
   "scripts": {
-    "build:css": "tailwindcss -i input.css -o output.css --minify",
-    "watch:css": "tailwindcss -i input.css -o output.css --watch",
-    "build:css": "tailwindcss -i input.css -o output.css --minify"
-  },
+  "build:css": "npx tailwindcss -i input.css -o output.css --minify",
+  "watch:css": "npx tailwindcss -i input.css -o output.css --watch"
+},
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
